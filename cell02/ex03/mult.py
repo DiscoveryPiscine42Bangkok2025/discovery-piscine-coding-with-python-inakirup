@@ -8,7 +8,7 @@ if result > 0:
 elif result < 0:
     sign_description = "negative"
 else:
-    sign_description = "zero"
+    sign_description = "positive and negative"
 
 print(f"{first_number} x {second_number} = {result}")   
 print(f"The result is {sign_description}.")

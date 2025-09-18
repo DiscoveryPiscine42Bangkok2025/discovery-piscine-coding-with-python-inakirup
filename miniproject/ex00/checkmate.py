@@ -5,9 +5,6 @@ def checkmate(board: str):
     # Parse and validate board
     lines = [line.strip() for line in board.splitlines() if line.strip()] # remove empty lines
 
-    if not lines or any(len(line) != len(lines) for line in lines): # If not square
-        return  # Invalid board - print nothing
-
     grid = [list(line) for line in lines]
 
     # Debug: print the board

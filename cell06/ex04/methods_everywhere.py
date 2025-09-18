@@ -3,7 +3,7 @@ import sys
 def shrink(s):
     print(s[:8])    
 def enlarge(s):
-    print(s.ljust(8, '*'))
+    print(s.ljust(8, 'Z'))
 
 if len(sys.argv) < 2:
     print("none")
